@@ -1,0 +1,941 @@
+E:\Anaconda3\lib\site-packages\torch\functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ..\aten\src\ATen\native\TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:03<00:03,  3.82s/it]100%|##########| 2/2 [00:04<00:00,  2.08s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0390
+AP for person = 0.4545
+AP for horse = 0.1667
+D:\pythonProjects\YOLOX-main2\yolox\evaluators\voc_eval.py:179: RuntimeWarning: invalid value encountered in true_divide
+  rec = tp / float(npos)
+AP for car = 0.0000
+Mean AP = 0.1650
+~~~~~~~~
+Results:
+0.039
+0.455
+0.167
+0.000
+0.165
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.05316558441558441
+map_50: 0.16504329004329002
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:03<00:03,  3.81s/it]100%|##########| 2/2 [00:04<00:00,  2.05s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0000
+AP for person = 0.0000
+AP for horse = 0.1667
+AP for car = 0.0000
+Mean AP = 0.0417
+~~~~~~~~
+Results:
+0.000
+0.000
+0.167
+0.000
+0.042
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.02083333333333333
+map_50: 0.04166666666666666
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:04<00:04,  4.02s/it]100%|##########| 2/2 [00:04<00:00,  2.17s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.1091
+AP for person = 0.1818
+AP for horse = 0.5000
+AP for car = 0.0000
+Mean AP = 0.1977
+~~~~~~~~
+Results:
+0.109
+0.182
+0.500
+0.000
+0.198
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.05295454545454546
+map_50: 0.19772727272727275
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:03<00:03,  3.91s/it]100%|##########| 2/2 [00:04<00:00,  2.13s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0000
+AP for person = 0.1388
+AP for horse = 0.1667
+AP for car = 0.0000
+Mean AP = 0.0764
+~~~~~~~~
+Results:
+0.000
+0.139
+0.167
+0.000
+0.076
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.03235072499185402
+map_50: 0.0763685239491691
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:04<00:04,  4.05s/it]100%|##########| 2/2 [00:04<00:00,  2.16s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0000
+AP for person = 0.1818
+AP for horse = 0.5000
+AP for car = 0.0000
+Mean AP = 0.1705
+~~~~~~~~
+Results:
+0.000
+0.182
+0.500
+0.000
+0.170
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.033712121212121214
+map_50: 0.17045454545454547
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:03<00:03,  3.87s/it]100%|##########| 2/2 [00:04<00:00,  2.09s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0000
+AP for person = 0.2105
+AP for horse = 0.5000
+AP for car = 0.0000
+Mean AP = 0.1776
+~~~~~~~~
+Results:
+0.000
+0.211
+0.500
+0.000
+0.178
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.03988572282980178
+map_50: 0.17763157894736845
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:04<00:04,  4.21s/it]100%|##########| 2/2 [00:04<00:00,  2.26s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0000
+AP for person = 0.0000
+AP for horse = 0.1111
+AP for car = 0.0000
+Mean AP = 0.0278
+~~~~~~~~
+Results:
+0.000
+0.000
+0.111
+0.000
+0.028
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.00659722222222222
+map_50: 0.02777777777777777
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:04<00:04,  4.04s/it]100%|##########| 2/2 [00:04<00:00,  2.16s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0000
+AP for person = 0.0398
+AP for horse = 0.2500
+AP for car = 0.0000
+Mean AP = 0.0725
+~~~~~~~~
+Results:
+0.000
+0.040
+0.250
+0.000
+0.072
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.03239975420060166
+map_50: 0.07245670995670997
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:04<00:04,  4.13s/it]100%|##########| 2/2 [00:04<00:00,  2.21s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0000
+AP for person = 0.2424
+AP for horse = 0.5000
+AP for car = 0.0000
+Mean AP = 0.1856
+~~~~~~~~
+Results:
+0.000
+0.242
+0.500
+0.000
+0.186
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.06212121212121213
+map_50: 0.18560606060606064
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:04<00:04,  4.08s/it]100%|##########| 2/2 [00:04<00:00,  2.90s/it]100%|##########| 2/2 [00:04<00:00,  2.23s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0000
+AP for person = 0.0303
+AP for horse = 0.3333
+AP for car = 0.0000
+Mean AP = 0.0909
+~~~~~~~~
+Results:
+0.000
+0.030
+0.333
+0.000
+0.091
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.02855477855477855
+map_50: 0.09090909090909088
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:04<00:04,  4.22s/it]100%|##########| 2/2 [00:04<00:00,  2.25s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0000
+AP for person = 0.1212
+AP for horse = 0.3333
+AP for car = 0.0000
+Mean AP = 0.1136
+~~~~~~~~
+Results:
+0.000
+0.121
+0.333
+0.000
+0.114
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.04412878787878787
+map_50: 0.11363636363636362
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:04<00:04,  4.16s/it]100%|##########| 2/2 [00:04<00:00,  2.23s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0000
+AP for person = 0.4416
+AP for horse = 1.0000
+AP for car = 0.0000
+Mean AP = 0.3604
+~~~~~~~~
+Results:
+0.000
+0.442
+1.000
+0.000
+0.360
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.141017316017316
+map_50: 0.3603896103896105
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:04<00:04,  4.21s/it]100%|##########| 2/2 [00:04<00:00,  2.98s/it]100%|##########| 2/2 [00:04<00:00,  2.30s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0000
+AP for person = 0.5455
+AP for horse = 0.5000
+AP for car = 0.0000
+Mean AP = 0.2614
+~~~~~~~~
+Results:
+0.000
+0.545
+0.500
+0.000
+0.261
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.10454545454545454
+map_50: 0.26136363636363635
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:04<00:04,  4.48s/it]100%|##########| 2/2 [00:04<00:00,  2.42s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0682
+AP for person = 0.0636
+AP for horse = 0.5000
+AP for car = 0.0000
+Mean AP = 0.1580
+~~~~~~~~
+Results:
+0.068
+0.064
+0.500
+0.000
+0.158
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.02553030303030303
+map_50: 0.1579545454545455
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:04<00:04,  4.64s/it]100%|##########| 2/2 [00:04<00:00,  2.50s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0000
+AP for person = 0.2727
+AP for horse = 1.0000
+AP for car = 0.0000
+Mean AP = 0.3182
+~~~~~~~~
+Results:
+0.000
+0.273
+1.000
+0.000
+0.318
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.05713166144200628
+map_50: 0.31818181818181823
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:04<00:04,  4.17s/it]100%|##########| 2/2 [00:04<00:00,  2.96s/it]100%|##########| 2/2 [00:04<00:00,  2.27s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0000
+AP for person = 0.3636
+AP for horse = 0.5000
+AP for car = 0.0000
+Mean AP = 0.2159
+~~~~~~~~
+Results:
+0.000
+0.364
+0.500
+0.000
+0.216
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.054848484848484855
+map_50: 0.21590909090909094
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:04<00:04,  4.44s/it]100%|##########| 2/2 [00:04<00:00,  2.39s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0072
+AP for person = 0.0000
+AP for horse = 0.5000
+AP for car = 0.0000
+Mean AP = 0.1268
+~~~~~~~~
+Results:
+0.007
+0.000
+0.500
+0.000
+0.127
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.027144565960355437
+map_50: 0.12679425837320576
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:04<00:04,  4.26s/it]100%|##########| 2/2 [00:04<00:00,  2.28s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0119
+AP for person = 0.0135
+AP for horse = 0.5000
+AP for car = 0.0000
+Mean AP = 0.1313
+~~~~~~~~
+Results:
+0.012
+0.013
+0.500
+0.000
+0.131
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.020346251553345376
+map_50: 0.13133143024447375
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:04<00:04,  4.14s/it]100%|##########| 2/2 [00:04<00:00,  2.24s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0136
+AP for person = 0.1818
+AP for horse = 0.5000
+AP for car = 0.0000
+Mean AP = 0.1739
+~~~~~~~~
+Results:
+0.014
+0.182
+0.500
+0.000
+0.174
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.042445887445887454
+map_50: 0.1738636363636364
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:04<00:04,  4.46s/it]100%|##########| 2/2 [00:04<00:00,  2.39s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0065
+AP for person = 0.1818
+AP for horse = 0.5000
+AP for car = 0.0000
+Mean AP = 0.1721
+~~~~~~~~
+Results:
+0.006
+0.182
+0.500
+0.000
+0.172
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.05226114528746108
+map_50: 0.1720779220779221
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:04<00:04,  4.21s/it]100%|##########| 2/2 [00:04<00:00,  2.25s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0299
+AP for person = 0.0909
+AP for horse = 1.0000
+AP for car = 0.0000
+Mean AP = 0.2802
+~~~~~~~~
+Results:
+0.030
+0.091
+1.000
+0.000
+0.280
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.04842618546025852
+map_50: 0.28018995929443696
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:04<00:04,  4.30s/it]100%|##########| 2/2 [00:04<00:00,  2.30s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0000
+AP for person = 0.1818
+AP for horse = 1.0000
+AP for car = 0.0000
+Mean AP = 0.2955
+~~~~~~~~
+Results:
+0.000
+0.182
+1.000
+0.000
+0.295
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.07272727272727272
+map_50: 0.2954545454545455
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:04<00:04,  4.52s/it]100%|##########| 2/2 [00:04<00:00,  2.42s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0058
+AP for person = 0.1932
+AP for horse = 0.3333
+AP for car = 0.0000
+Mean AP = 0.1331
+~~~~~~~~
+Results:
+0.006
+0.193
+0.333
+0.000
+0.133
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.06189353642811089
+map_50: 0.13307946486137973
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|#####     | 1/2 [00:04<00:04,  4.10s/it]100%|##########| 2/2 [00:04<00:00,  2.22s/it]
+im_eval: 1/2 im_eval: 2/2 Writing cat VOC results file
+Writing person VOC results file
+Writing horse VOC results file
+Writing car VOC results file
+Eval IoU : 0.50
+AP for cat = 0.0109
+AP for person = 0.1818
+AP for horse = 1.0000
+AP for car = 0.0000
+Mean AP = 0.2982
+~~~~~~~~
+Results:
+0.011
+0.182
+1.000
+0.000
+0.298
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
+Eval IoU : 0.55
+Eval IoU : 0.60
+Eval IoU : 0.65
+Eval IoU : 0.70
+Eval IoU : 0.75
+Eval IoU : 0.80
+Eval IoU : 0.85
+Eval IoU : 0.90
+Eval IoU : 0.95
+--------------------------------------------------------------
+map_5095: 0.068
+map_50: 0.2981818181818182
+--------------------------------------------------------------
+  0%|          | 0/2 [00:00<?, ?it/s]  0%|          | 0/2 [00:05<?, ?it/s]
